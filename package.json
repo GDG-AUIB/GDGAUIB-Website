@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://gdg-auib.github.io/GDGAUIB-Website/",
   "name": "GDGAUIB-website",
   "version": "0.1.0",
   "scripts": {
@@ -30,7 +31,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"
