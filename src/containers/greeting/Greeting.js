@@ -31,9 +31,9 @@ export default function Greeting(props) {
                 <SocialMedia theme={theme} />
                 <div className="portfolio-repo-btn-div">
                   <Button
-                    text="⭐ Join us on Discord"
+                    text="⭐ Join the Team"
                     newTab={true}
-                    href={greeting.discord_link}
+                    href={'/join'}
                     theme={theme}
                     className="portfolio-repo-btn"
                   />

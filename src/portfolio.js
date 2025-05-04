@@ -65,8 +65,7 @@ const skills = {
       title: "Data Science & AI",
       fileName: "ArtificialIntelligenceImg",
       skills: [
-        "🚀 Each year, we explore groundbreaking advancements in Data Science and Artificial Intelligence. Our sessions focus on the latest techniques and tools, helping you stay ahead in developing scalable models and applying cutting-edge methods in Computer Vision and Natural Language Processing.",
-      ],
+        "example, example Artificial Intelligence, or AI, refers to machines that mimic human cognition, capable of learning, reasoning, and problem-solving. Data science is an interdisciplinary field that involves extracting insights from data sets, combining statistics, and computer science. AI and data science are interconnected."      ],
       softwareSkills: [
         {
           skillName: "TensorFlow",
