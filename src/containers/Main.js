@@ -26,6 +26,11 @@ export default class Main extends Component {
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
 
+          <Route
+            path="/events"
+            render={(props) => <Home {...props} theme={this.props.theme} />}
+          />
+
           {settings.isSplash && (
             <Route
               path="/splash"

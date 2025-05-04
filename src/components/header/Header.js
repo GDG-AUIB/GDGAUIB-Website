@@ -59,6 +59,16 @@ class Header extends Component {
               </li>
               <li>
                 <a
+                  href="/events"
+                  style={{ color: theme.text, textDecoration: "none" }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  events
+                </a>
+              </li>
+              <li>
+                <a
                   href="#team"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
