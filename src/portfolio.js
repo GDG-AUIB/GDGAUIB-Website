@@ -13,20 +13,20 @@ const seo = {
   og: {
     title: "Google Developer Groups on Campus AUIB",
     type: "website",
-    url: "https://Google-Developer-Groups-on-Campus-AUIB.github.io",
+    url: "https://link",
   },
 };
 
 //Home Page
 const greeting = {
-  fullname: "Google Developer Groups on Campus AUIB",
+  fullname: "GDG on Campus AUIB",
   title: "Google Developer Groups",
   university_name: "on Campus The American University of Iraq – Baghdad",
   logo_name: "DIU",
   subTitle:
     "We are a student-led tech community at AUIB, affiliated with Google Developer Groups, that empowers students to learn, build, and share knowledge about technologies and beyond through events, workshops, and collaborative projects.",
     portfolio_repository:
-    "https://github.com/LINK",
+    "https://github.com/RLINK",
   discord_link: "https://discord.gg/LINK",
   githubProfile: "https://github.com/LINK",
 };
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/LINK",
+    link: "https://github.com/orgs/GDG-AUIB",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -149,7 +149,7 @@ const members = {
     {
       name: "Yousif Oday",
       role: "Team Lead",
-      github: "AliceLee103",
+      github: "Yousif-12",
       social: [
         {
           name: "Github",
