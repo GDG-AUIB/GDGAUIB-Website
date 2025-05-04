@@ -1,0 +1,29 @@
+.teams-header {
+    font-size: 60px;
+    line-height: normal;
+    font-family: "Google Sans Regular";
+    text-align: center;
+}
+
+.teams-body-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .teams-header {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teams-body-div {
+        flex-direction: column;
+    }
+
+    .teams-header {
+        font-size: 30px;
+    }
+}
