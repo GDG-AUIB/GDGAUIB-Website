@@ -1,1 +1,1 @@
-# https://gdg-auib.github.io/GDGAUIB-Website/bsite
+# GDGAUIB-Website

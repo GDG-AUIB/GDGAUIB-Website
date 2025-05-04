@@ -1,7 +1,7 @@
 {
   "private": true,
-  "homepage": "https://gdg-auib.github.io/https://gdg-auib.github.io/GDGAUIB-Website/bsite/",
-  "name": "https://gdg-auib.github.io/GDGAUIB-Website/bsite",
+  "homepage": "https://gdg-auib.github.io/GDGAUIB-Website",
+  "name": "https://gdg-auib.github.io/GDGAUIB-Website",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
