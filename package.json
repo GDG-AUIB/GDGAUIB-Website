@@ -1,8 +1,7 @@
 {
   "private": true,
-  "name": "google-developer-groups-on-campus-auib.github.io",
+  "name": "GDGAUIB-website",
   "version": "0.1.0",
-  "homepage": "https://google-developer-groups-on-campus-auib.github.io",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
