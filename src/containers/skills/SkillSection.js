@@ -6,14 +6,22 @@ import { Fade } from "react-reveal";
 import ArtificialIntelligenceImg from "../../assets/images/ArtificialIntelligenceImg.svg";
 import MobileImg from "../../assets/images/MobileImg.svg";
 import WebDevelopmentImg from "../../assets/images/WebDevelopmentImg.svg";
+import webImg from "../../assets/images/code-review.svg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "ArtificialIntelligenceImg")
-    return <img alt="ArtificialIntelligenceImg" src={ArtificialIntelligenceImg}></img>;
+    return (
+      <img
+        alt="ArtificialIntelligenceImg"
+        src={ArtificialIntelligenceImg}
+      ></img>
+    );
   else if (props.fileName === "WebDevelopmentImg")
     return <img alt="WebDevelopmentImg" src={WebDevelopmentImg}></img>;
   else if (props.fileName === "MobileImg")
     return <img alt="MobileImg" src={MobileImg}></img>;
+  else if (props.fileName === "webImg")
+    return <img alt="webImg" src={webImg}></img>;
   return <img alt="MobileImg" src={MobileImg}></img>;
 }
 

@@ -1,12 +1,12 @@
 {
   "private": true,
-  "homepage": "https://gdg-auib.github.io/GDGAUIB-Website",
   "name": "https://gdg-auib.github.io/GDGAUIB-Website",
   "version": "0.1.0",
+  "homepage": "https://gdg-auib.github.io/GDGAUIB-Website",
   "scripts": {
-    "build": "react-scripts build --openssl-legacy-provider",
-    "predeploy": "npm run build --openssl-legacy-provider",
-    "deploy": "gh-pages -d build --openssl-legacy-provider",
+    "build": "react-scripts build ",
+    "predeploy": "npm run build ",
+    "deploy": "gh-pages -d build ",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"

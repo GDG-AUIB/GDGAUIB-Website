@@ -3,7 +3,7 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.js";
-import Logo from "../../assets/images/GDG On Campus - Horizontal.png";
+import Logo from "../../assets/images/GDG On Campus - Horizontal.svg";
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -49,7 +49,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="#technology"
+                  href="/home#technology"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -64,17 +64,27 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  events
+                  Events
                 </a>
               </li>
               <li>
                 <a
-                  href="#team"
+                  href="/home#team"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Team
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/FAQ"
+                  style={{ color: theme.text, textDecoration: "none" }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  FAQ
                 </a>
               </li>
             </ul>

@@ -25,8 +25,7 @@ const greeting = {
   logo_name: "DIU",
   subTitle:
     "We are a student-led tech community at AUIB, affiliated with Google Developer Groups, that empowers students to learn, build, and share knowledge about technologies and beyond through events, workshops, and collaborative projects.",
-    portfolio_repository:
-    "https://github.com/RLINK",
+  portfolio_repository: "https://github.com/RLINK",
   discord_link: "https://discord.gg/LINK",
   githubProfile: "https://github.com/LINK",
 };
@@ -40,8 +39,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link:
-      "https://www.linkedin.com/company/LINK/",
+    link: "https://www.linkedin.com/company/LINK/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -65,7 +63,8 @@ const skills = {
       title: "Data Science & AI",
       fileName: "ArtificialIntelligenceImg",
       skills: [
-        "example, example Artificial Intelligence, or AI, refers to machines that mimic human cognition, capable of learning, reasoning, and problem-solving. Data science is an interdisciplinary field that involves extracting insights from data sets, combining statistics, and computer science. AI and data science are interconnected."      ],
+        "example, example Artificial Intelligence, or AI, refers to machines that mimic human cognition, capable of learning, reasoning, and problem-solving. Data science is an interdisciplinary field that involves extracting insights from data sets, combining statistics, and computer science. AI and data science are interconnected.",
+      ],
       softwareSkills: [
         {
           skillName: "TensorFlow",
@@ -94,7 +93,8 @@ const skills = {
       title: "Mobile Development",
       fileName: "MobileDevImg",
       skills: [
-        "example, example Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones."      ],
+        "example, example Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.",
+      ],
       softwareSkills: [
         {
           skillName: "Flutter",
@@ -113,10 +113,27 @@ const skills = {
       ],
     },
     {
+      title: "WEB Development",
+      fileName: "webImg",
+      skills: [
+        "example, example Web app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#00D8FF",
+          },
+        },
+      ],
+    },
+    {
       title: "Cloud Infrastructure & Architecture",
       fileName: "WebDevelopmentImg",
       skills: [
-        "example, example Infrastructure as a service is a cloud computing service model where a cloud services vendor provides computing resources such as storage, network, servers, and virtualization."      ],
+        "example, example Infrastructure as a service is a cloud computing service model where a cloud services vendor provides computing resources such as storage, network, servers, and virtualization.",
+      ],
       softwareSkills: [
         {
           skillName: "Google Cloud Platform (GCP)",
@@ -160,6 +177,25 @@ const members = {
         {
           name: "LinkedIn",
           link: "https://www.linkedin.com/in/yousif-oday-7a46802b1/",
+          fontAwesomeIcon: "fa-linkedin-in",
+          backgroundColor: "#0077B5",
+        },
+      ],
+    },
+    {
+      name: "Arwa Yearub",
+      role: "core Ream Member",
+      github: "ArwaYearub",
+      social: [
+        {
+          name: "Github",
+          link: "https://github.com/ArwaYearub",
+          fontAwesomeIcon: "fa-github",
+          backgroundColor: "#181717",
+        },
+        {
+          name: "LinkedIn",
+          link: "https://www.linkedin.com/in/arwa-yaareb-4ab720292/",
           fontAwesomeIcon: "fa-linkedin-in",
           backgroundColor: "#0077B5",
         },
