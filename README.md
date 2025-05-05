@@ -5,8 +5,7 @@
 
 ---
 
-![GDG Banner](https://github.com/GDG-AUIB/GDGAUIB-Website/blob/main/src/assets/images/GDG%20On%20Campus%20-%20Horizontal.svg)  
-_(Replace this with your actual banner image)_
+![GDG Banner](https://github.com/GDG-AUIB/GDGAUIB-Website/blob/main/src/assets/images/GDG%20On%20Campus%20-%20Horizontal.svg)
 
 ---
 
@@ -40,10 +39,5 @@ This website is powered by the latest web technologies to ensure a seamless expe
 
 - **Frontend**:
   - ⚛️ React.js for dynamic and interactive components.
-  - 🎨 Tailwind CSS for modern, responsive styling.
 - **Backend**:
   - 🛠️ Node.js and Express.js for server-side logic.
-  - 🔒 Firebase for authentication and database management.
-- **Other Tools**:
-  - 📊 Google Analytics for tracking user engagement.
-  - 🎥 Lottie Animations for eye-catching visuals.
