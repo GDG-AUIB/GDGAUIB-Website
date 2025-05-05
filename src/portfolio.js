@@ -223,4 +223,31 @@ const members = {
   ],
 };
 
+export const faqData = {
+  title: "Frequently Asked Questions",
+  subtitle: "Here are some common questions and answers about our community.",
+  questions: [
+    {
+      question: "What is GDG on Campus AUIB?",
+      answer:
+        "GDG on Campus AUIB is a student-led tech community affiliated with Google Developer Groups.",
+    },
+    {
+      question: "How can I join the community?",
+      answer:
+        "You can join by attending our events or reaching out to us through our social media channels.",
+    },
+    {
+      question: "What kind of events do you organize?",
+      answer:
+        "We organize workshops, hackathons, and collaborative projects to foster learning and innovation.",
+    },
+    {
+      question: "What kind of events do you organize?",
+      answer:
+        "We organize workshops, hackathons, and collaborative projects to foster learning and innovation.",
+    },
+  ],
+};
+
 export { settings, seo, greeting, socialMediaLinks, skills, members };

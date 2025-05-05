@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import FaqPage from "../pages/faq/FaqPage";
 
 export default class Main extends Component {
   render() {
@@ -26,7 +27,10 @@ export default class Main extends Component {
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
 
-
+          <Route
+            path="/faq"
+            render={(props) => <FaqPage {...props} theme={this.props.theme} />}
+          />
 
           {settings.isSplash && (
             <Route
