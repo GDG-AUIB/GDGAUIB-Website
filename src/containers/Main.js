@@ -34,7 +34,7 @@ export default class Main extends Component {
 
           {settings.isSplash && (
             <Route
-              path="/splash"
+              path="/GDGAUIB-Website"
               render={(props) => <Splash {...props} theme={this.props.theme} />}
             />
           )}
