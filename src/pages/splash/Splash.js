@@ -31,7 +31,7 @@ class Splash extends Component {
 
   render() {
     return this.state.redirect ? (
-      <Redirect to="/GDGAUIB-Website/home" />
+      <Redirect to="/home" />
     ) : (
       <AnimatedSplash theme={this.props.theme} />
     );

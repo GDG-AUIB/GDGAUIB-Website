@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Google Developer Groups on Campus AUIB",
     type: "website",
-    url: "https://link",
+    url: "https://gdg-auib.github.io/GDGAUIB-Website",
   },
 };
 

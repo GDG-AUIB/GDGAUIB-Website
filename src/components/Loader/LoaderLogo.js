@@ -1,7 +1,6 @@
 import React from "react";
 import "./LoaderLogo.css";
 import video from "../../assets/images/video.gif";
-// import loaderLogo from "../../assets/images/loaderLogo.gif";
 
 class LogoLoader extends React.Component {
   render() {
