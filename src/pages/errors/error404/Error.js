@@ -19,7 +19,7 @@ export default class Error extends Component {
             <p>The requested page is unavailable at the moment!</p>
             <Link
               className="main-button"
-              to="/home"
+              to="/GDGAUIB-Website/home"
               style={{
                 color: theme.body,
                 backgroundColor: theme.text,
