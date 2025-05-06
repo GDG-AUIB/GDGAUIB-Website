@@ -19,7 +19,9 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    const link = settings.isSplash ? "/splash" : "home";
+    const link = settings.isSplash
+      ? "/GDGAUIB-Website/splash"
+      : "/GDGAUIB-Website/home";
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
@@ -49,7 +51,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="/home#technology"
+                  href="/GDGAUIB-Website/home#technology"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -59,7 +61,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="/events"
+                  href="/GDGAUIB-Website/events"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -79,7 +81,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="/FAQ"
+                  href="/GDGAUIB-Website/FAQ"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
