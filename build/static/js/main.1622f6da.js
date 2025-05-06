@@ -1,4 +1,4 @@
-/*! For license information please see main.df23e6af.js.LICENSE.txt */
+/*! For license information please see main.1622f6da.js.LICENSE.txt */
 (() => {
   var e = {
       5: (e, t) => {
@@ -15046,12 +15046,12 @@
           title: "Google Developer Groups",
           university_name:
             "on Campus The American University of Iraq \u2013 Baghdad",
-          logo_name: "DIU",
+          logo_name: "AUIB",
           subTitle:
             "We are a student-led tech community at AUIB, affiliated with Google Developer Groups, that empowers students to learn, build, and share knowledge about technologies and beyond through events, workshops, and collaborative projects.",
-          portfolio_repository: "https://github.com/RLINK",
-          discord_link: "https://discord.gg/LINK",
-          githubProfile: "https://github.com/LINK",
+          portfolio_repository: "https://github.com/GDG-AUIB/GDGAUIB-Website",
+          discord_link: "https://discord.gg/cUMGbfEk",
+          githubProfile: "https://github.com/GDG-AUIB",
         },
         cr = [
           {
@@ -15062,13 +15062,13 @@
           },
           {
             name: "LinkedIn",
-            link: "https://www.linkedin.com/company/LINK/",
+            link: "https://www.linkedin.com/company/gdg-auib",
             fontAwesomeIcon: "fa-linkedin-in",
             backgroundColor: "#0077B5",
           },
           {
             name: "Discord",
-            link: "https://discord.gg/LINK",
+            link: "https://discord.gg/cUMGbfEk",
             fontAwesomeIcon: "fa-discord",
             backgroundColor: "#7289DA",
           },
@@ -21693,4 +21693,4 @@
       );
     })();
 })();
-//# sourceMappingURL=main.df23e6af.js.map
+//# sourceMappingURL=main.1622f6da.js.map

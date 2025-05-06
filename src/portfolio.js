@@ -22,12 +22,12 @@ const greeting = {
   fullname: "GDG on Campus AUIB",
   title: "Google Developer Groups",
   university_name: "on Campus The American University of Iraq – Baghdad",
-  logo_name: "DIU",
+  logo_name: "AUIB",
   subTitle:
     "We are a student-led tech community at AUIB, affiliated with Google Developer Groups, that empowers students to learn, build, and share knowledge about technologies and beyond through events, workshops, and collaborative projects.",
-  portfolio_repository: "https://github.com/RLINK",
-  discord_link: "https://discord.gg/LINK",
-  githubProfile: "https://github.com/LINK",
+  portfolio_repository: "https://github.com/GDG-AUIB/GDGAUIB-Website",
+  discord_link: "https://discord.gg/cUMGbfEk",
+  githubProfile: "https://github.com/GDG-AUIB",
 };
 
 const socialMediaLinks = [
@@ -39,13 +39,13 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/company/LINK/",
+    link: "https://www.linkedin.com/company/gdg-auib",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Discord",
-    link: "https://discord.gg/LINK",
+    link: "https://discord.gg/cUMGbfEk",
     fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/discord?style=brands
     backgroundColor: "#7289DA", // Reference https://simpleicons.org/?q=discord
   },
