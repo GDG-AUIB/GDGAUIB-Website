@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-const img1 = require("../../assets/images/diversity.svg");
+import img1 from "../../assets/images/diversity.svg";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -45,7 +45,7 @@ export default function Greeting(props) {
               </div>
             </div>
             <div className="greeting-image-div">
-              <img alt="diversity" src={img1}></img>
+              <img alt="logoimg1" src={img1}></img>
             </div>
           </div>
         </div>
@@ -53,3 +53,4 @@ export default function Greeting(props) {
     </section>
   );
 }
+//1

@@ -55,7 +55,6 @@
   height: auto;
 }
 
-
 @media (max-width: 1200px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -86,7 +85,7 @@
   }
 
   .greeting-image-div > * {
-    max-width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
   }
 }

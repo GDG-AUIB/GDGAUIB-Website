@@ -323,8 +323,8 @@ body {
     width: 100%;
   }
   .greeting-image-div > * {
-    height: auto;
-    max-width: 100%;
+    height: 200px;
+    width: 200px;
   }
 }
 .social-media-div {
@@ -5202,4 +5202,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.8e463d5a.css.map*/
+/*# sourceMappingURL=main.23a6e2dc.css.map*/
