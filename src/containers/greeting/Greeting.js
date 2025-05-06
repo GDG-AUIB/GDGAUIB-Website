@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
+const img1 = require("../../assets/images/diversity.svg");
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -18,7 +19,10 @@ export default function Greeting(props) {
                   {greeting.title} <br /> {greeting.university_name}
                 </h1>
                 {greeting.nickname && (
-                  <h2 className="greeting-nickname" style={{ color: theme.text }}>
+                  <h2
+                    className="greeting-nickname"
+                    style={{ color: theme.text }}
+                  >
                     {greeting.nickname}
                   </h2>
                 )}
@@ -33,7 +37,7 @@ export default function Greeting(props) {
                   <Button
                     text="⭐ Join the Team"
                     newTab={true}
-                    href={'/join'}
+                    href={"/join"}
                     theme={theme}
                     className="portfolio-repo-btn"
                   />
@@ -41,7 +45,7 @@ export default function Greeting(props) {
               </div>
             </div>
             <div className="greeting-image-div">
-              <img alt="diversity" src={require("../../assets/images/diversity.svg")}></img>
+              <img alt="diversity" src={img1}></img>
             </div>
           </div>
         </div>
