@@ -249,21 +249,23 @@ body {
 }
 .main {
   margin: 4rem auto 0;
-}
-.greet-main,
-.main {
   padding: 20px 10px;
   width: 90%;
 }
 .greet-main {
   margin: 2rem auto 0;
-}
-.gretting-main {
-  margin: 0 auto;
   padding: 20px 10px;
   width: 90%;
 }
-.greeting-main {
+.greet-main,
+.greeting-text-div {
+  flex-direction: column;
+  justify-content: center;
+}
+.greet-main,
+.greeting-main,
+.greeting-text-div {
+  align-items: center;
   display: flex;
 }
 .greeting-main > * {
@@ -317,9 +319,6 @@ body {
     line-height: normal;
     margin-right: 0;
     text-align: center;
-  }
-  .greeting-main {
-    display: block;
   }
   .portfolio-repo-btn-div {
     display: flex;
@@ -494,6 +493,12 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.team-badge-wrapper {
+  display: flex;
+  flex: 1 1 30%;
+  justify-content: center;
+  margin: 10px;
+}
 @media (max-width: 1380px) {
   .teams-header {
     font-size: 50px;
@@ -505,6 +510,23 @@ body {
   }
   .teams-header {
     font-size: 30px;
+  }
+  .team-badge-wrapper {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 480px) {
+  .teams-header {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .teams-body-div {
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-badge-wrapper {
+    margin: 10px 0;
   }
 }
 .team-badge {
@@ -684,6 +706,7 @@ body {
   position: fixed;
   right: 1.5rem;
   visibility: hidden;
+  z-index: 2;
 }
 .construction-alert {
   background-color: #fc0;
@@ -5345,4 +5368,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.24b7d6d7.css.map*/
+/*# sourceMappingURL=main.894ffac3.css.map*/

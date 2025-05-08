@@ -1,29 +1,57 @@
 .teams-header {
-    font-size: 60px;
-    line-height: normal;
-    font-family: "Google Sans Regular";
-    text-align: center;
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Google Sans Regular";
+  text-align: center;
 }
 
 .teams-body-div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team-badge-wrapper {
+  flex: 1 1 30%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
-    .teams-header {
-        font-size: 50px;
-    }
+  .teams-header {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 768px) {
-    .teams-body-div {
-        flex-direction: column;
-    }
+  .teams-body-div {
+    flex-direction: column;
+  }
 
-    .teams-header {
-        font-size: 30px;
-    }
+  .teams-header {
+    font-size: 30px;
+  }
+
+  .team-badge-wrapper {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .teams-header {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .teams-body-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-badge-wrapper {
+    margin: 10px 0;
+  }
 }
