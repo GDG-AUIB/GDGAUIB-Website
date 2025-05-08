@@ -1,0 +1,89 @@
+.event-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(66, 133, 244, 0.2);
+  position: relative;
+}
+
+.event-card-past {
+  border-color: #e0e0e0;
+}
+
+.event-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.event-card-date {
+  font-size: 14px;
+  color: #868e96;
+}
+
+.event-card-body {
+  margin: 15px 0;
+}
+
+.event-card-detail {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #868e96;
+  margin-bottom: 10px;
+}
+
+.event-card-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon-date {
+  background-color: #e3f2fd;
+  color: #4285f4;
+}
+
+.icon-location {
+  background-color: #fdede3;
+  color: #ea4335;
+}
+
+.icon-attendees {
+  background-color: #e3f9ed;
+  color: #0f9d58;
+}
+
+.icon-past {
+  background-color: #f5f5f5;
+  color: #bdbdbd;
+}
+
+.event-card-footer {
+  margin-top: 15px;
+}
+
+.event-card-button {
+  background: linear-gradient(to right, #4285f4, #34a853);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-card-button:hover {
+  background-color: #2c7a7b;
+}

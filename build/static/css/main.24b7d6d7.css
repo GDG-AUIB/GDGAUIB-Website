@@ -268,7 +268,7 @@ body {
 }
 .greeting-main > * {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-bottom: 30px;
   position: relative;
   width: 60%;
@@ -394,100 +394,94 @@ body {
     font-size: 12px;
   }
 }
-.skills-main-div {
+#EventHero {
+  align-self: center;
+  background-color: #f9f9f9;
+  border: 2px solid #0078d4;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #0000001a;
   display: flex;
-  overflow: hidden;
+  padding: 40px 20px;
 }
-.skills-header {
-  font-family: Google Sans Regular;
-  font-size: 60px;
-  line-height: normal;
+.EventHero-header-div {
+  margin-bottom: 40px;
+  margin-top: 20px;
   text-align: center;
 }
-.skills-text {
+.EventHero-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.EventHero-cards {
+  border: 1px solid #f9f9f9;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.event-card-detail {
+  text-align: left;
+}
+.event-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #0000001a;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-card:hover {
+  box-shadow: 0 8px 20px #0003;
+  transform: translateY(-10px);
+}
+.event-card-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.event-card-title {
+  color: #0078d4;
   font-size: 20px;
+  font-weight: 700;
+  margin: 0;
 }
-.skills-text-div {
-  font-family: Google Sans Regular;
-  margin-left: 50px;
-}
-.skills-main-div > * {
-  flex: 1 1;
-  margin-bottom: 30px;
-}
-.skills-image-div > * {
-  height: auto;
-  margin-top: 100px;
-  max-width: 100%;
-}
-.skills-heading {
-  font-family: Google Sans Regular;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: normal;
-}
-@media (max-width: 1380px) {
-  .skills-heading {
-    font-size: 40px;
-  }
-  .skills-header {
-    font-size: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .skills-heading {
-    font-size: 30px;
-    text-align: center;
-  }
-  .skills-header {
-    font-size: 30px;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
-  .skills-main-div {
-    flex-direction: column;
-  }
-  .skills-text-div {
-    margin: 20px;
-  }
-  .skills-text {
-    font-size: 16px;
-  }
-  .skills-text-subtitle {
-    font-size: 16px;
-    text-align: center;
-  }
-  .skills-image-div {
-    order: 2;
-  }
-  .skills-image-div > * {
-    margin-top: 0;
-  }
-}
-.dev-icons {
-  font-size: 3rem;
-  list-style: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
-  text-align: center;
-}
-.software-skill-inline {
-  display: inline-block;
-  font-family: Google Sans Regular;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-.software-skill-inline > i {
+.event-card-date {
   color: #868e96;
+  font-size: 14px;
 }
-.software-skill-inline > i:hover {
-  color: #645beb;
+.event-card-body {
+  margin: 15px 0;
 }
-.skill-image {
-  height: 48px;
+.event-card-location {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.event-card-attendees {
+  color: #868e96;
+  font-size: 14px;
+}
+.event-card-footer {
+  margin-top: 15px;
+}
+.event-card-button {
+  background-color: #0078d4;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+.event-card-button:hover {
+  background-color: #005bb5;
 }
 .teams-header {
   font-family: Google Sans Regular;
@@ -5351,4 +5345,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.1c7cc219.css.map*/
+/*# sourceMappingURL=main.24b7d6d7.css.map*/

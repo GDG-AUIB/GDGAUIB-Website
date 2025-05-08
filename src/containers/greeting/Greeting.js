@@ -4,10 +4,11 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import img1 from "../../assets/images/diversity.svg";
+import EventHero from "../../containers/EventHero/EventHero";
 
 export default function Greeting(props) {
   const theme = props.theme;
+
   return (
     <section id="overview">
       <Fade bottom duration={2000} distance="40px">
@@ -37,15 +38,17 @@ export default function Greeting(props) {
                   <Button
                     text="⭐ Join the Team"
                     newTab={true}
-                    href={"/join"}
+                    href={
+                      "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran"
+                    }
                     theme={theme}
                     className="portfolio-repo-btn"
                   />
                 </div>
               </div>
             </div>
-            <div className="greeting-image-div">
-              <img alt="logoimg1" src={img1}></img>
+            <div>
+              <EventHero theme={props.theme} />
             </div>
           </div>
         </div>

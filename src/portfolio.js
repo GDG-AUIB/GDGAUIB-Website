@@ -328,4 +328,28 @@ export const faqData = {
   ],
 };
 
+export const eventList = [
+  {
+    title: "Orientation Session",
+    date: "May 15, 2025",
+    location: "AUIB Campus",
+    attendees: 50,
+    link: "#",
+  },
+  {
+    title: "Hackathon 2025",
+    date: "April 10, 2025",
+    location: "AUIB Auditorium",
+    attendees: 20,
+    link: "/event#register",
+  },
+  {
+    title: "Tech Talk: AI in 2026",
+    date: "March 20, 2026",
+    location: "Online",
+    attendees: 30,
+    link: "/event#tech-talk",
+  },
+];
+
 export { settings, seo, greeting, socialMediaLinks, skills, members };
