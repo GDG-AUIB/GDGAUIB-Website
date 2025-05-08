@@ -1,4 +1,4 @@
-/*! For license information please see main.10463f4a.js.LICENSE.txt */
+/*! For license information please see main.9efb2ba2.js.LICENSE.txt */
 (() => {
   var e = {
       5: (e, t) => {
@@ -15168,7 +15168,7 @@
           members: [
             {
               name: "Yousif Oday",
-              role: "Organizer",
+              role: "Leader",
               linkedin: "yousif-oday-7a46802b1",
               Photo:
                 "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/yousif_oday_9fz13Ez.jpg",
@@ -21791,4 +21791,4 @@
       );
     })();
 })();
-//# sourceMappingURL=main.10463f4a.js.map
+//# sourceMappingURL=main.9efb2ba2.js.map
