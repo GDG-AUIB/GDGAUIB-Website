@@ -22,7 +22,10 @@
 }
 
 .greeting-main > * {
-  flex: 1;
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
   margin-bottom: 30px;
 }
 .button-greeting-div {
@@ -51,8 +54,9 @@
 }
 
 .greeting-image-div > * {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  padding-left: 10%;
 }
 
 @media (max-width: 1200px) {
@@ -82,10 +86,5 @@
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-
-  .greeting-image-div > * {
-    width: 200px;
-    height: 200px;
   }
 }

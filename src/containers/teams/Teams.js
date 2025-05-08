@@ -2,7 +2,7 @@ import React from "react";
 import "./Teams.css";
 import { Fade } from "react-reveal";
 import { members } from "../../portfolio";
-import TeamCard from "../../components/teamCard/teamCard";
+import TeamBadge from "../../components/teamBadge/TeamBadge";
 
 export default function Teams(props) {
   const theme = props.theme;
@@ -17,9 +17,9 @@ export default function Teams(props) {
           </Fade>
         </div>
         <div className="teams-body-div">
-          {members.members.map((member) => {
-            return <TeamCard member={member} theme={theme} />;
-          })}
+          {members.members.map((member, index) => (
+            <TeamBadge key={index} member={member} />
+          ))}
         </div>
       </div>
     </section>

@@ -165,60 +165,138 @@ const members = {
   members: [
     {
       name: "Yousif Oday",
-      role: "Team Lead",
-      github: "Yousif-12",
+      role: "Organizer",
+      linkedin: "yousif-oday-7a46802b1",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/yousif_oday_9fz13Ez.jpg",
+      joinYear: 2023,
+      leaveYear: null,
+      quote: "Empowering students to innovate and grow.",
       social: [
-        {
-          name: "Github",
-          link: "https://github.com/Yousif-12",
-          fontAwesomeIcon: "fa-github",
-          backgroundColor: "#181717",
-        },
         {
           name: "LinkedIn",
           link: "https://www.linkedin.com/in/yousif-oday-7a46802b1/",
           fontAwesomeIcon: "fa-linkedin-in",
           backgroundColor: "#0077B5",
         },
-      ],
-    },
-    {
-      name: "Arwa Yearub",
-      role: "core Ream Member",
-      github: "ArwaYearub",
-      social: [
         {
           name: "Github",
-          link: "https://github.com/ArwaYearub",
+          link: "https://github.com/Yousif-12",
           fontAwesomeIcon: "fa-github",
           backgroundColor: "#181717",
         },
-        {
-          name: "LinkedIn",
-          link: "https://www.linkedin.com/in/arwa-yaareb-4ab720292/",
-          fontAwesomeIcon: "fa-linkedin-in",
-          backgroundColor: "#0077B5",
-        },
       ],
     },
     {
-      name: "Abdullah M Almarashdi",
+      name: "Abdullah Almarashdi",
       role: "Core Team Member",
+      linkedin: "abdullah-almarashdi",
       github: "zaniixx",
+      joinYear: 2023,
+      leaveYear: null,
+      quote: "Empowering students to innovate and grow.",
       social: [
         {
+          name: "LinkedIn",
+          link: `https://www.linkedin.com/in/abdullah-almarashdi/`,
+          fontAwesomeIcon: "fa-linkedin-in",
+          backgroundColor: "#0077B5",
+        },
+        {
           name: "Github",
-          link: "https://github.com/zaniixx",
+          link: `https://github.com/zaniixx`,
           fontAwesomeIcon: "fa-github",
           backgroundColor: "#181717",
         },
+      ],
+    },
+    {
+      name: "Mohammed Mousa",
+      role: "Event Coordinator",
+      linkedin: "mohammed-mousa",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/mohammed_mousa.png",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "GDG of AUIB is where innovation meets collaboration.",
+      social: [
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/abdullah-almarashdi/",
+          link: "https://www.linkedin.com/in/mohammed-mousa/",
           fontAwesomeIcon: "fa-linkedin-in",
           backgroundColor: "#0077B5",
         },
       ],
+    },
+    {
+      name: "Hussein Fouad",
+      role: "Core Team Member",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/hussein_fouad.jpeg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Building the future, one step at a time.",
+      social: [],
+    },
+    {
+      name: "Hasan Aldelfi",
+      role: "Designer",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/blacktskull_..jpg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Design is intelligence made visible.",
+      social: [],
+    },
+    {
+      name: "Ryu Nix",
+      role: "Video Editor",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/ryu_nix.jpg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Crafting stories through visuals.",
+      social: [],
+    },
+    {
+      name: "Kadhim Dheyaa",
+      role: "Core Team Member",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/kadhim_dheyaa_1fkhnmo.jpg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Passionate about technology and teamwork.",
+      social: [],
+    },
+    {
+      name: "Anas Malik",
+      role: "Core Team Member",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/anas_malik_ZLIIE1B.jpg",
+      joinYear: 2024,
+      leaveYear: 2025,
+      quote: "Innovation starts with curiosity.",
+      social: [],
+    },
+    {
+      name: "Sajjad Amer",
+      role: "Core Team Member",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/sajjad_amer.jpg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Empowering ideas through collaboration.",
+      social: [],
+    },
+    {
+      name: "Scar Ali Ammar",
+      role: "Marketing",
+      Photo:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/scar_ali_ammar.jpg",
+      joinYear: 2024,
+      leaveYear: null,
+      quote: "Connecting people through creative strategies.",
+      social: [],
     },
   ],
 };
