@@ -267,8 +267,11 @@ body {
   display: flex;
 }
 .greeting-main > * {
-  flex: 1 1;
+  display: flex;
+  justify-content: flex-end;
   margin-bottom: 30px;
+  position: relative;
+  width: 60%;
 }
 .button-greeting-div {
   display: flex;
@@ -293,7 +296,8 @@ body {
 }
 .greeting-image-div > * {
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
+  padding-left: 10%;
 }
 @media (max-width: 1200px) {
   .button-greeting-div {
@@ -321,10 +325,6 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-  }
-  .greeting-image-div > * {
-    height: 200px;
-    width: 200px;
   }
 }
 .social-media-div {
@@ -513,83 +513,163 @@ body {
     font-size: 30px;
   }
 }
-.member-card {
-  align-items: center;
-  border: 1px solid #d9dbdf;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #d9dbdf;
-  display: inline-block;
-  flex: 0 0 45%;
-  justify-content: center;
-  margin-bottom: 30px;
-  text-align: center;
-  width: 30%;
-}
-.member-header {
-  border-radius: 5px 5px 0 0;
-  margin: 0;
-}
-.logo_img {
-  border-radius: 50%;
-  height: 100px;
-  margin: 3px;
-  width: auto;
-}
-.member-body {
-  margin: 0;
-}
-.member-body-title {
-  font-size: 20px;
-}
-.member-body-subtitle,
-.member-body-title {
-  font-family: Google Sans Regular;
-  margin: 10px;
-}
-.member-body-subtitle {
-  color: grey;
-  font-size: 18px;
-}
-.content {
-  margin: auto;
+.team-badge {
+  background-color: #fff;
+  border: 2px solid #0078d4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #0003;
+  font-family: Google Sans Regular, sans-serif;
+  height: 400px;
+  margin: 15px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
 }
-.content .content-overlay {
-  background: #000000b3;
-  bottom: 0;
-  height: 99%;
+.team-badge:before {
+  background: radial-gradient(circle, #0078d433 1px, #0000 0);
+  background-size: 15px 15px;
+  content: "";
+  height: 100%;
   left: 0;
-  opacity: 0;
+  opacity: 0.5;
   position: absolute;
-  right: 0;
   top: 0;
-  transition: all 0.4s ease-in-out 0s;
+  transition: background-size 0.3s ease, opacity 0.3s ease;
+  width: 100%;
+  z-index: 0;
+}
+.team-badge:hover:before {
+  background-size: 25px 25px;
+  opacity: 1;
+}
+.team-badge:hover {
+  box-shadow: 0 8px 20px #0000004d;
+  transform: translateY(-10px) scale(1.05);
+}
+.badge-header {
+  animation: slideIn 1s ease-out;
+  background-color: #0078d4;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 10px;
+  z-index: 1;
+}
+.badge-header,
+.badge-year {
+  align-items: center;
+  position: relative;
+}
+.badge-year {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  row-gap: 65%;
+}
+.year-separator {
+  background-color: #edf9fe;
+  border: 2px solid #edf9fe;
+  border-radius: 30px;
+  height: 20px;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+}
+.badge-body {
+  animation: fadeIn 1.5s ease-in-out;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+.badge-photo {
+  border: 3px solid #0078d4;
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  width: 100px;
+}
+.badge-name {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+.badge-role {
+  color: #868e96;
+  font-size: 16px;
+  margin: 5px 0 15px;
+}
+.badge-quote {
+  color: #555;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 0 15px;
+}
+.badge-socials {
+  gap: 10px;
+  margin-top: 10px;
+}
+.badge-socials,
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 30px;
+}
+.social-icon:hover {
+  background-color: #005a9e;
+  transform: scale(1.2);
+}
+.badge-footer {
+  background-color: #f4f4f4;
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
   width: 100%;
 }
-.content:hover .content-overlay {
-  opacity: 1;
+.badge-footer-text {
+  color: #0078d4;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
 }
-.content:hover .content-details {
-  left: 50%;
-  opacity: 1;
-  top: 50%;
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.content-details h3 {
-  color: #fff;
-  font-family: Google Sans Regular;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-.fadeIn-top {
-  top: 20%;
-}
-@media (max-width: 768px) {
-  .member-card {
-    width: 100%;
+@keyframes bounce {
+  0%,
+  to {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 .footer-text {
@@ -610,6 +690,75 @@ body {
   position: fixed;
   right: 1.5rem;
   visibility: hidden;
+}
+.construction-alert {
+  background-color: #fc0;
+  box-shadow: 0 2px 5px #0003;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.construction-alert-popup {
+  align-items: center;
+  background-color: #0009;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+.construction-alert-content {
+  background-color: #fff;
+  background-color: var(--background-color, #fff);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px #0000004d;
+  max-width: 500px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  width: 90%;
+}
+.construction-alert-content:hover {
+  box-shadow: 0 12px 30px #00000080;
+}
+.construction-alert-content h2 {
+  color: #001c55;
+  color: var(--primary-color, #001c55);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.construction-alert-content p {
+  color: #333;
+  color: var(--text-color, #333);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.close-button {
+  background: #0078d4;
+  border: 1px solid #0078d4;
+  border-radius: 8px;
+  bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+.close-button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s ease-in;
 }
 .logo_wrapper {
   align-items: center;
@@ -5202,4 +5351,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.23a6e2dc.css.map*/
+/*# sourceMappingURL=main.1c7cc219.css.map*/
