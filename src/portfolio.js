@@ -165,7 +165,7 @@ const members = {
   members: [
     {
       name: "Yousif Oday",
-      role: "Organizer",
+      role: "Leader",
       linkedin: "yousif-oday-7a46802b1",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/yousif_oday_9fz13Ez.jpg",
