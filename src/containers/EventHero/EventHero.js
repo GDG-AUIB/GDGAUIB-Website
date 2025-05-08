@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import "./EventHero.css";
 import { Fade } from "react-reveal";
 import { eventList } from "../../portfolio";
-import { EventCard, PastEventCard } from "../../components/EventCard/EventCard";
+import {
+  EventCard,
+  PastEventCard,
+} from "../../components/EventCard/EventCard.js";
 
 export default function EventHero(props) {
   const theme = props.theme;
