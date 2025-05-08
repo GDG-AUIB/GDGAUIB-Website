@@ -33,3 +33,32 @@
 .event-card-detail {
   text-align: left;
 }
+
+.EventHero-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.EventHero-tab {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0078d4;
+  background-color: #f9f9f9;
+  border: 2px solid #0078d4;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.EventHero-tab.active {
+  background-color: #0078d4;
+  color: #ffffff;
+}
+
+.EventHero-tab:hover {
+  background-color: #005a9e;
+  color: #ffffff;
+}

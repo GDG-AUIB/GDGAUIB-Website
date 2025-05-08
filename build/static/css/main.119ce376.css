@@ -424,6 +424,31 @@ body {
 .event-card-detail {
   text-align: left;
 }
+.EventHero-tabs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.EventHero-tab {
+  background-color: #f9f9f9;
+  border: 2px solid #0078d4;
+  border-radius: 8px;
+  color: #0078d4;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.EventHero-tab.active {
+  background-color: #0078d4;
+  color: #fff;
+}
+.EventHero-tab:hover {
+  background-color: #005a9e;
+  color: #fff;
+}
 .event-card {
   background-color: #fff;
   border-radius: 12px;
@@ -5368,4 +5393,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.894ffac3.css.map*/
+/*# sourceMappingURL=main.119ce376.css.map*/

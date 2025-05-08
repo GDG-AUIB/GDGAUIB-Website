@@ -11,7 +11,14 @@ export default function TeamBadge({ member }) {
       </div>
       <div className="badge-body">
         <img
-          src={member.Photo || `https://github.com/${member.github}.png`}
+          type="module"
+          src={
+            member.Photo === member.name
+              ? `https://github.com/${member.github}.png`
+              : member.Photo !== null
+              ? member.Photo
+              : `https://github.com/${member.github}.png`
+          }
           alt={member.name}
           className="badge-photo"
         />
