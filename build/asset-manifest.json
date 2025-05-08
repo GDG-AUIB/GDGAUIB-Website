@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GDGAUIB-Website/static/css/main.119ce376.css",
-    "main.js": "/GDGAUIB-Website/static/js/main.a1370d4c.js",
+    "main.css": "/GDGAUIB-Website/static/css/main.550901ac.css",
+    "main.js": "/GDGAUIB-Website/static/js/main.d440a910.js",
     "static/media/fa-solid-900.svg": "/GDGAUIB-Website/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/GDGAUIB-Website/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/Montserrat-Regular.ttf": "/GDGAUIB-Website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -28,11 +28,11 @@
     "static/media/fa-regular-400.woff": "/GDGAUIB-Website/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/fa-regular-400.woff2": "/GDGAUIB-Website/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/GDGAUIB-Website/index.html",
-    "main.119ce376.css.map": "/GDGAUIB-Website/static/css/main.119ce376.css.map",
-    "main.a1370d4c.js.map": "/GDGAUIB-Website/static/js/main.a1370d4c.js.map"
+    "main.550901ac.css.map": "/GDGAUIB-Website/static/css/main.550901ac.css.map",
+    "main.d440a910.js.map": "/GDGAUIB-Website/static/js/main.d440a910.js.map"
   },
   "entrypoints": [
-    "static/css/main.119ce376.css",
-    "static/js/main.a1370d4c.js"
+    "static/css/main.550901ac.css",
+    "static/js/main.d440a910.js"
   ]
 }

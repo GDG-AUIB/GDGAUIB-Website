@@ -1,7 +1,7 @@
 import React from "react";
 import "./EventCard.css"; // Import your CSS file for styling
 
-const EventCard = ({
+export const EventCard = ({
   title,
   date,
   location,
@@ -61,7 +61,7 @@ const EventCard = ({
   );
 };
 
-const PastEventCard = ({
+export const PastEventCard = ({
   title,
   date,
   location,
@@ -120,5 +120,3 @@ const PastEventCard = ({
     </div>
   );
 };
-
-export { EventCard, PastEventCard };

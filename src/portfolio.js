@@ -220,7 +220,8 @@ const members = {
       Photo: null,
       joinYear: 2023,
       leaveYear: null,
-      quote: " EXAMPLE Empowering students to innovate and grow.",
+      quote:
+        "Why face calculus when I can optimize my snacks for maximum CPU (Calorie Processing Unit) efficiency?",
       social: [
         {
           name: "LinkedIn",
@@ -415,8 +416,7 @@ const members = {
       Photo: "Ameer Ghassan",
       joinYear: 2024,
       leaveYear: null,
-      quote:
-        "The shortest route is the detour. It was the detour that was our shortest path.",
+      quote: "Professional napper",
       social: [
         {
           name: "LinkedIn",
