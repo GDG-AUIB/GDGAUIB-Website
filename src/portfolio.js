@@ -218,7 +218,7 @@ const members = {
       linkedin: "abdullah-almarashdi",
       github: "zaniixx",
       Photo: "null",
-      joinYear: 2023,
+      joinYear: 2024,
       leaveYear: null,
       quote:
         "Why face calculus when I can optimize my snacks for maximum CPU (Calorie Processing Unit) efficiency?",

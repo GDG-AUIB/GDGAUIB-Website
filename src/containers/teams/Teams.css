@@ -1,21 +1,61 @@
 .teams-header {
   font-size: 60px;
-  line-height: normal;
   font-family: "Google Sans Regular";
   text-align: center;
 }
 
 .teams-body-div {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.team-badge-wrapper {
-  flex: 1 1 30%;
-  margin: 10px;
+.team-category {
+  margin-bottom: 2rem;
+  width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  width: 100%;
+}
+
+.category-members {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
+}
+
+.filter-options {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.filter-options select,
+.filter-options button {
+  margin-left: 0.5rem;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0078d4;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333333;
+  transition: all 0.3s ease;
+}
+
+.filter-options select:hover,
+.filter-options button:hover {
+  border-color: #005a9e;
+  background-color: #f4f4f4;
 }
 
 /* Media Query */
@@ -33,11 +73,6 @@
   .teams-header {
     font-size: 30px;
   }
-
-  .team-badge-wrapper {
-    flex: 1 1 100%;
-    margin: 5px 0;
-  }
 }
 
 @media (max-width: 480px) {
@@ -49,9 +84,5 @@
   .teams-body-div {
     flex-direction: column;
     align-items: center;
-  }
-
-  .team-badge-wrapper {
-    margin: 10px 0;
   }
 }
