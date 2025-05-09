@@ -217,7 +217,7 @@ const members = {
       role: "Core Team Member",
       linkedin: "abdullah-almarashdi",
       github: "zaniixx",
-      Photo: null,
+      Photo: "null",
       joinYear: 2023,
       leaveYear: null,
       quote:
@@ -413,7 +413,7 @@ const members = {
       role: "Graphic designer",
       linkedin: "ameer-ghassan-7a8a67221",
       github: "ameer23",
-      Photo: "Ameer Ghassan",
+      Photo: "null",
       joinYear: 2024,
       leaveYear: null,
       quote: "Professional napper",
@@ -427,6 +427,31 @@ const members = {
         {
           name: "Github",
           link: "https://github.com/ameer23",
+          fontAwesomeIcon: "fa-github",
+          backgroundColor: "#181717",
+        },
+      ],
+    },
+    {
+      name: "Zain Mohammed",
+      role: "Quality control",
+      linkedin: "zainalaabiden-abotiheen-0205102b6",
+      github: "abotiheen",
+      Photo: "null",
+      joinYear: 2023,
+      leaveYear: 2024,
+      quote: "To a canon, all men are equal",
+      social: [
+        {
+          name: "LinkedIn",
+          link:
+            "https://www.linkedin.com/in/azainalaabiden-abotiheen-0205102b6",
+          fontAwesomeIcon: "fa-linkedin-in",
+          backgroundColor: "#0077B5",
+        },
+        {
+          name: "Github",
+          link: "https://github.com/abotiheen",
           fontAwesomeIcon: "fa-github",
           backgroundColor: "#181717",
         },

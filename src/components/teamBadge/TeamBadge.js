@@ -2,6 +2,18 @@ import React from "react";
 import "./TeamBadge.css";
 
 export default function TeamBadge({ member }) {
+  const getPhotoSrc = (member) => {
+    const extensions = ["png", "jpg", "jpeg", "gif"];
+    for (const ext of extensions) {
+      try {
+        return require(`../../assets/images/team/${member.name}.${ext}`);
+      } catch (error) {
+        continue;
+      }
+    }
+    return member.Photo;
+  };
+
   return (
     <div className="team-badge">
       <div className="badge-header">
@@ -12,13 +24,11 @@ export default function TeamBadge({ member }) {
       <div className="badge-body">
         <img
           type="module"
-          src={
-            member.Photo === member.name
-              ? `https://github.com/${member.github}.png`
-              : member.Photo !== null
-              ? member.Photo
-              : `https://github.com/${member.github}.png`
-          }
+          src={getPhotoSrc(member)}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = `https://github.com/${member.github}.png`;
+          }}
           alt={member.name}
           className="badge-photo"
         />
