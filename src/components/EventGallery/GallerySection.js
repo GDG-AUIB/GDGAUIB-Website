@@ -7,7 +7,7 @@ function importAll(r) {
 }
 const galleryImages = importAll(
   require.context("../../assets/images/gallery", false, /\.(png|jpe?g|svg)$/)
-);
+); //gives an error for some reason, but works fine in local
 
 // Chevron path for "<" and ">" now: mid -> top (disappear) OR mid -> bottom (disappear)
 const LEFT_CHEVRON_TOP = [
