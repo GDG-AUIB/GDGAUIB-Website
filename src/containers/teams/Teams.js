@@ -1,13 +1,23 @@
 import React, { useState } from "react";
 import "./Teams.css";
 import { Fade } from "react-reveal";
-import { members } from "../../portfolio";
+import { members } from "../../data/members";
 import TeamBadge from "../../components/teamBadge/TeamBadge";
+
+// Remove unused getRoleForYear function if not used anywhere
+// (delete the function above if not needed)
 
 export default function Teams(props) {
   const theme = props.theme;
-  const [filterType, setFilterType] = useState("none");
+  // Set default filterType to "year" for Chapter grouping
+  const [filterType, setFilterType] = useState("year");
   const [sortOrder, setSortOrder] = useState("desc");
+  const [selectedRole, setSelectedRole] = useState("All");
+
+  // Get all unique roles for the dropdown
+  const allRoles = Array.from(
+    new Set(members.members.map((m) => m.role))
+  ).sort();
 
   const groupedMembers = () => {
     if (filterType === "role") {
@@ -16,7 +26,12 @@ export default function Teams(props) {
         if (!groups[member.role]) groups[member.role] = [];
         groups[member.role].push(member);
       });
-      return Object.entries(groups);
+      let entries = Object.entries(groups);
+      // If a specific role is selected, filter to just that role
+      if (selectedRole !== "All") {
+        entries = entries.filter(([role]) => role === selectedRole);
+      }
+      return entries;
     } else if (filterType === "year") {
       const yearMap = new Map();
       members.members.forEach((member) => {
@@ -35,6 +50,14 @@ export default function Teams(props) {
     }
     return [["All Members", members.members]];
   };
+
+  // Helper to get the role for a member for a specific year
+  function getRoleForYear(member, year) {
+    if (member.roleByYear && member.roleByYear[year]) {
+      return member.roleByYear[year];
+    }
+    return member.role;
+  }
 
   return (
     <section id="team">
@@ -59,6 +82,7 @@ export default function Teams(props) {
               <option value="role">Role</option>
               <option value="year">Chapter</option>
             </select>
+            {/* Show sort order button for year */}
             {filterType === "year" && (
               <button
                 onClick={() =>
@@ -73,6 +97,26 @@ export default function Teams(props) {
                 {sortOrder === "desc" ? "↓" : "↑"}
               </button>
             )}
+            {/* Show role selector when grouping by role */}
+            {filterType === "role" && (
+              <select
+                id="role-filter"
+                value={selectedRole}
+                onChange={(e) => setSelectedRole(e.target.value)}
+                style={{
+                  marginLeft: "10px",
+                  color: theme.text,
+                  backgroundColor: theme.body,
+                }}
+              >
+                <option value="All">All Roles</option>
+                {allRoles.map((role) => (
+                  <option key={role} value={role}>
+                    {role}
+                  </option>
+                ))}
+              </select>
+            )}
           </div>
         </div>
         <div className="teams-body-div">
@@ -82,9 +126,19 @@ export default function Teams(props) {
                 {category}
               </h2>
               <div className="category-members">
-                {categoryMembers.map((member, index) => (
-                  <TeamBadge key={index} member={member} />
-                ))}
+                {filterType === "year"
+                  ? categoryMembers.map((member, index) => (
+                      <TeamBadge
+                        key={index}
+                        member={{
+                          ...member,
+                          role: getRoleForYear(member, category),
+                        }}
+                      />
+                    ))
+                  : categoryMembers.map((member, index) => (
+                      <TeamBadge key={index} member={member} />
+                    ))}
               </div>
             </div>
           ))}

@@ -41,16 +41,6 @@ class Header extends Component {
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <a
-                  href="/GDGAUIB-Website/home#technology"
-                  style={{ color: theme.text, textDecoration: "none" }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Technology
-                </a>
-              </li>
-              <li>
-                <a
                   href="/GDGAUIB-Website/events"
                   style={{ color: theme.text, textDecoration: "none" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
