@@ -23,12 +23,12 @@ export default class Main extends Component {
             }
           />
           <Route
-            path="//home"
+            path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
 
           <Route
-            path="//FAQ"
+            path="/FAQ"
             render={(props) => <FaqPage {...props} theme={this.props.theme} />}
           />
 
