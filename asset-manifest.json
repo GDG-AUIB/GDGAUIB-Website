@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/GDGAUIB-Website/static/css/main.31f3df30.css",
-    "main.js": "/GDGAUIB-Website/static/js/main.ed616c37.js",
+    "main.css": "/GDGAUIB-Website/static/css/main.70f3453b.css",
+    "main.js": "/GDGAUIB-Website/static/js/main.2018eeb3.js",
     "static/media/kadhim Riyadh.png": "/GDGAUIB-Website/static/media/kadhim Riyadh.689665c5d91e270876a3.png",
+    "static/media/7.jpg": "/GDGAUIB-Website/static/media/7.6243d1997cf4482feef9.jpg",
+    "static/media/9.jpg": "/GDGAUIB-Website/static/media/9.1adc32e5510225db3869.jpg",
+    "static/media/4.jpg": "/GDGAUIB-Website/static/media/4.758baa7f69f2ab391a5b.jpg",
+    "static/media/11.jpg": "/GDGAUIB-Website/static/media/11.693f57cd44af8522ec93.jpg",
+    "static/media/10.jpg": "/GDGAUIB-Website/static/media/10.69ea2bbcea0713788968.jpg",
+    "static/media/6.jpg": "/GDGAUIB-Website/static/media/6.ce5275b21ba36f5f5276.jpg",
     "static/media/fa-solid-900.svg": "/GDGAUIB-Website/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
+    "static/media/2.jpg": "/GDGAUIB-Website/static/media/2.69032067e8dd3166a163.jpg",
+    "static/media/8.jpg": "/GDGAUIB-Website/static/media/8.4a55f427a2aa54e99a17.jpg",
+    "static/media/12.jpg": "/GDGAUIB-Website/static/media/12.43c013857899cb595fe9.jpg",
     "static/media/fa-brands-400.svg": "/GDGAUIB-Website/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
+    "static/media/1.jpg": "/GDGAUIB-Website/static/media/1.2971bdd873624dffb13f.jpg",
+    "static/media/5.jpg": "/GDGAUIB-Website/static/media/5.928d834c11bbcd5025d2.jpg",
+    "static/media/3.jpg": "/GDGAUIB-Website/static/media/3.593d4a0b20f47848eb99.jpg",
     "static/media/Ali Ammar.jpg": "/GDGAUIB-Website/static/media/Ali Ammar.bccb564e4f5ecd8326f5.jpg",
     "static/media/Montserrat-Regular.ttf": "/GDGAUIB-Website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Zain Mohammed.jpg": "/GDGAUIB-Website/static/media/Zain Mohammed.71a8778685bfec95aa78.jpg",
     "static/media/fa-solid-900.eot": "/GDGAUIB-Website/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "/GDGAUIB-Website/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
+    "static/media/4v.jpg": "/GDGAUIB-Website/static/media/4v.c243de8738823ce194bc.jpg",
     "static/media/fa-regular-400.svg": "/GDGAUIB-Website/static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/Anas Malik.jpg": "/GDGAUIB-Website/static/media/Anas Malik.18b791e09592abd21416.jpg",
     "static/media/Wafaa Mutar.JPG": "/GDGAUIB-Website/static/media/Wafaa Mutar.55dc124d1995441a5207.JPG",
@@ -36,11 +49,11 @@
     "static/media/fa-regular-400.woff": "/GDGAUIB-Website/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/fa-regular-400.woff2": "/GDGAUIB-Website/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/GDGAUIB-Website/index.html",
-    "main.31f3df30.css.map": "/GDGAUIB-Website/static/css/main.31f3df30.css.map",
-    "main.ed616c37.js.map": "/GDGAUIB-Website/static/js/main.ed616c37.js.map"
+    "main.70f3453b.css.map": "/GDGAUIB-Website/static/css/main.70f3453b.css.map",
+    "main.2018eeb3.js.map": "/GDGAUIB-Website/static/js/main.2018eeb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.31f3df30.css",
-    "static/js/main.ed616c37.js"
+    "static/css/main.70f3453b.css",
+    "static/js/main.2018eeb3.js"
   ]
 }
