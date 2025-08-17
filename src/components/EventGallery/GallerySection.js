@@ -15,16 +15,16 @@ const LEFT_CHEVRON_TOP = [
   { x: 0.4, y: 0.15 }, // top
 ];
 const LEFT_CHEVRON_BOTTOM = [
-  { x: 0.2, y: 0.5 }, // mid (tip)
-  { x: 0.4, y: 0.85 }, // bottom
+  { x: 0.2, y: 0.5 },
+  { x: 0.4, y: 0.85 },
 ];
 const RIGHT_CHEVRON_TOP = [
-  { x: 0.8, y: 0.5 }, // mid (tip)
-  { x: 0.6, y: 0.15 }, // top
+  { x: 0.8, y: 0.5 },
+  { x: 0.6, y: 0.15 },
 ];
 const RIGHT_CHEVRON_BOTTOM = [
-  { x: 0.8, y: 0.5 }, // mid (tip)
-  { x: 0.6, y: 0.85 }, // bottom
+  { x: 0.8, y: 0.5 },
+  { x: 0.6, y: 0.85 },
 ];
 
 const ANIMATION_DURATION = 5000; // ms for a full loop
