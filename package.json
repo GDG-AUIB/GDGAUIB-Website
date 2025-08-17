@@ -1,7 +1,6 @@
 {
-  "name": "https://gdg-auib.github.io/GDGAUIB-Website",
+  "name": "GDGAUIB-Website",
   "version": "0.1.0",
-  "homepage": "https://gdg-auib.github.io/GDGAUIB-Website",
   "scripts": {
     "build": "react-scripts build ",
     "predeploy": "npm run build ",
