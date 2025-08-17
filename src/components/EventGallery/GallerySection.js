@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import requireContext from "require-context.macro";
 import "./GallerySection.css";
 
 // Import all images from the gallery folder
@@ -6,7 +7,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 const galleryImages = importAll(
-  require.context("../../assets/images/gallery", false, /\.(png|jpe?g|svg)$/)
+  requireContext("../../assets/images/gallery", false, /\.(png|jpe?g|svg)$/)
 ); //gives an error for some reason, but works fine in local
 
 // Chevron path for "<" and ">" now: mid -> top (disappear) OR mid -> bottom (disappear)
