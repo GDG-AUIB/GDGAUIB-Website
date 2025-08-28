@@ -1,7 +1,7 @@
 {
   "name": "gdg",
   "version": "0.1.0",
-  "homepage": "https://gdg.auib.club",
+  "homepage": "https://gdgoc.auib.club",
   "scripts": {
     "build": "react-scripts build ",
     "predeploy": "npm run build ",
