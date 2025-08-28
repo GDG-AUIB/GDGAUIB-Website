@@ -1,7 +1,6 @@
 import React from "react";
 import "../../containers/EventHero/EventHero.css"; // reuse styles
 import "./EventsPage.css";
-import { Fade } from "react-reveal";
 import { eventList } from "../../data/events";
 import {
   EventCard,
