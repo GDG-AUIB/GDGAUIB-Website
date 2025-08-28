@@ -2,18 +2,17 @@ const members = {
   members: [
     {
       name: "Yousif Oday",
-      role: "Leader",
-      roleByYear: {
-        2023: "Marketing",
-        2024: "Leader",
-        2025: "Leader",
+      roleByChapter: {
+        "2023 Fall": "Marketing",
+        "2024 Fall": "Organizer",
+        "2025 spring": "Organizer",
       },
       linkedin: "yousif-oday-7a46802b1",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/yousif_oday_9fz13Ez.jpg",
-      joinYear: 2023,
-      leaveYear: null,
-      quote: "EXAMPLE Empowering students to innovate and grow.",
+      joinChapter: "2023 Fall",
+      leaveChapter: "2025 spring",
+      quote: null,
       social: [
         {
           name: "LinkedIn",
@@ -36,8 +35,8 @@ const members = {
       github: "kjasim98",
       Photo:
         "https://media.licdn.com/dms/image/v2/D4E03AQHMvK_qnXC85Q/profile-displayphoto-shrink_200_200/B4EZV2Zk.3HUAc-/0/1741448172474?e=1752105600&v=beta&t=wO1pn8UGsfU3mu3998B1nPAR01dB1gxU-2G0ZsVoLT4",
-      joinYear: 2024,
-      leaveYear: null,
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote: "Some obey the algorithm. I design it.",
       social: [
         {
@@ -60,8 +59,12 @@ const members = {
       linkedin: "abdullah-almarashdi",
       github: "zaniixx",
       Photo: "null",
-      joinYear: 2024,
-      leaveYear: null,
+      roleByChapter: {
+        "2024 Fall": "Core Team Member",
+        "2025 Fall": "Organizer",
+      },
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote:
         "Why face calculus when I can optimize my snacks for maximum CPU (Calorie Processing Unit) efficiency?",
       social: [
@@ -85,8 +88,8 @@ const members = {
       linkedin: "mohammed-mousa-5205012b6",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/mohammed_mousa.png",
-      joinYear: 2024,
-      leaveYear: null,
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote:
         "Your mind is programmable—if you’re not programming it, someone else will.",
       social: [
@@ -103,9 +106,9 @@ const members = {
       role: "Core Team Member",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/hussein_fouad.jpeg",
-      joinYear: 2024,
-      leaveYear: null,
-      quote: "EXAMPLE Building the future, one step at a time.",
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
+      quote: "",
       social: [],
     },
     {
@@ -113,9 +116,9 @@ const members = {
       role: "Designer",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/blacktskull_..jpg",
-      joinYear: 2024,
-      leaveYear: null,
-      quote: "EXAMPLE Design is intelligence made visible.",
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
+      quote: "",
       social: [],
     },
     {
@@ -125,8 +128,8 @@ const members = {
       github: "ka7om",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/kadhim_dheyaa_1fkhnmo.jpg",
-      joinYear: 2023,
-      leaveYear: null,
+      joinChapter: "2023 Fall",
+      leaveChapter: null,
       quote: "It's not a bug - it's a feature!",
       social: [
         {
@@ -150,8 +153,8 @@ const members = {
       github: "anas-aldolimi",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/anas_malik_ZLIIE1B.jpg",
-      joinYear: 2023,
-      leaveYear: 2024,
+      joinChapter: "2023 Fall",
+      leaveChapter: "2024 Fall",
       quote: "Supporting innovation through fun.",
       social: [
         {
@@ -173,9 +176,9 @@ const members = {
       role: "Core Team Member",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/sajjad_amer.jpg",
-      joinYear: 2024,
-      leaveYear: null,
-      quote: "EXAMPLE Empowering ideas through collaboration.",
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
+      quote: "",
       social: [],
     },
     {
@@ -183,9 +186,9 @@ const members = {
       role: "Marketing",
       Photo:
         "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/scar_ali_ammar.jpg",
-      joinYear: 2024,
-      leaveYear: null,
-      quote: "EXAMPLE Connecting people through creative strategies.",
+      joinChapter: "2024 Fall",
+      leaveChapter: "2025 spring",
+      quote: "",
       social: [],
     },
     {
@@ -194,8 +197,8 @@ const members = {
       linkedin: "wafaa-j-mutar-7024ab364",
       Photo:
         "https://media.licdn.com/dms/image/v2/D4E03AQFibtsCOpJTlA/profile-displayphoto-shrink_200_200/B4EZaxGl84HoAY-/0/1746728019275?e=1752105600&v=beta&t=eepOWIr1neWFhM2WkyVkhs5uL-0USPNITxEFZ8GNWts",
-      joinYear: 2024,
-      leaveYear: null,
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote: "Make learning your passion and always choose to keep going.",
       social: [
         {
@@ -212,8 +215,8 @@ const members = {
       linkedin: "narjis-al-absaly-0990a02b6",
       Photo:
         "https://media.licdn.com/dms/image/v2/D4E03AQHXDNyJXBC45Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1716307325494?e=1752105600&v=beta&t=6-dXOhZByvh8wQmL9gG_r1ZDGISkaJ4NgE1nvkUCQTU",
-      joinYear: 2023,
-      leaveYear: 2025,
+      joinChapter: "2023 Fall",
+      leaveChapter: "2025 spring",
       quote: "Make learning your passion and always choose to keep going.",
       social: [
         {
@@ -231,8 +234,8 @@ const members = {
       github: "Ryunix5",
       Photo:
         "https://media.licdn.com/dms/image/v2/D4E03AQGBfXHaYHaYDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729113038592?e=1752105600&v=beta&t=pSksEi8ZnsmB7XooFDoKXFXNWWE0UhOdY0uwg7UQQc0",
-      joinYear: 2024,
-      leaveYear: null,
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote:
         "The shortest route is the detour. It was the detour that was our shortest path.",
       social: [
@@ -256,8 +259,8 @@ const members = {
       linkedin: "ameer-ghassan-7a8a67221",
       github: "ameer23",
       Photo: "null",
-      joinYear: 2024,
-      leaveYear: null,
+      joinChapter: "2024 Fall",
+      leaveChapter: null,
       quote: "Professional napper",
       social: [
         {
@@ -280,8 +283,8 @@ const members = {
       linkedin: "zainalaabiden-abotiheen-0205102b6",
       github: "abotiheen",
       Photo: "null",
-      joinYear: 2023,
-      leaveYear: 2024,
+      joinChapter: "2023 Fall",
+      leaveChapter: "2024 Fall",
       quote: "To a canon, all men are equal",
       social: [
         {

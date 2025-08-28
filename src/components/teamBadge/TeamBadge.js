@@ -14,12 +14,21 @@ export default function TeamBadge({ member }) {
     return member.Photo;
   };
 
+  const joinChapter =
+    member.joinChapter ??
+    (member.joinYear ? `${member.joinYear} Fall` : "Unknown");
+  const leaveChapter =
+    member.leaveChapter === null
+      ? "Present"
+      : member.leaveChapter ??
+        (member.leaveYear ? `${member.leaveYear} Fall` : "Present");
+
   return (
     <div className="team-badge">
       <div className="badge-header">
         <span className="year-separator"></span>
-        <h className="badge-year">{member.joinYear}</h>
-        <h className="badge-year">{member.leaveYear || "Present"}</h>
+        <span className="badge-year">{joinChapter}</span>
+        <span className="badge-year">{leaveChapter}</span>
       </div>
       <div className="badge-body">
         <img
@@ -27,16 +36,22 @@ export default function TeamBadge({ member }) {
           src={getPhotoSrc(member)}
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = `https://github.com/${member.github}.png`;
+            if (member.github) {
+              e.target.src = `https://github.com/${member.github}.png`;
+            } else if (member.Photo) {
+              e.target.src = member.Photo;
+            }
           }}
           alt={member.name}
           className="badge-photo"
         />
         <h2 className="badge-name">{member.name}</h2>
         <p className="badge-role">{member.role}</p>
-        <blockquote className="badge-quote">“{member.quote}”</blockquote>
+        {member.quote && (
+          <blockquote className="badge-quote">“{member.quote}”</blockquote>
+        )}
         <div className="badge-socials">
-          {member.social.map((media, index) => (
+          {(member.social || []).map((media, index) => (
             <a
               key={index}
               href={media.link}

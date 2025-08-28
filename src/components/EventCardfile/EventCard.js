@@ -37,17 +37,19 @@ export const EventCard = ({
             📍<span>{location}</span>
           </div>
         </div>
-        <div className="event-card-detail">
-          <div
-            className={`event-card-icon ${
-              isPast ? "icon-past" : "icon-attendees"
-            }`}
-          >
-            👥<span>{attendees} Attendees</span>
+        {attendees != null && (
+          <div className="event-card-detail">
+            <div
+              className={`event-card-icon ${
+                isPast ? "icon-past" : "icon-attendees"
+              }`}
+            >
+              👥<span>{attendees} Attendees</span>
+            </div>
           </div>
-        </div>
+        )}
       </div>
-      {!isPast && (
+      {!isPast && link && (
         <a
           href={link}
           target="_blank"
@@ -97,17 +99,19 @@ export const PastEventCard = ({
             📍<span>{location}</span>
           </div>
         </div>
-        <div className="event-card-detail">
-          <div
-            className={`event-card-icon ${
-              isPast ? "icon-past" : "icon-attendees"
-            }`}
-          >
-            👥<span>{attendees} Attendees</span>
+        {attendees != null && (
+          <div className="event-card-detail">
+            <div
+              className={`event-card-icon ${
+                isPast ? "icon-past" : "icon-attendees"
+              }`}
+            >
+              👥<span>{attendees} Attendees</span>
+            </div>
           </div>
-        </div>
+        )}
       </div>
-      {!isPast && (
+      {isPast && link && (
         <a
           href={link}
           target="_blank"

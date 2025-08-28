@@ -1,0 +1,43 @@
+/* Simple responsive gallery grid for event cards */
+.EventsPage-container {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EventsPage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 24px;
+}
+
+.EventsPage-hero {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* center horizontally */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center children */
+}
+
+/* Slightly tweak card size within the grid */
+.EventsPage-grid .event-card {
+  padding: 18px;
+}
+
+/* Add a subtle hover overlay */
+.event-card:hover::after {
+  content: "";
+  position: absolute;
+}
+
+@media (max-width: 640px) {
+  .EventHero-header {
+    font-size: 1.6rem;
+  }
+}
