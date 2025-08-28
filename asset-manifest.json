@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.79699134.css",
-    "main.js": "/static/js/main.83cfe7ab.js",
+    "main.js": "/static/js/main.18cdb678.js",
     "static/media/kadhim Riyadh.png": "/static/media/kadhim Riyadh.689665c5d91e270876a3.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -47,10 +47,10 @@
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/index.html",
     "main.79699134.css.map": "/static/css/main.79699134.css.map",
-    "main.83cfe7ab.js.map": "/static/js/main.83cfe7ab.js.map"
+    "main.18cdb678.js.map": "/static/js/main.18cdb678.js.map"
   },
   "entrypoints": [
     "static/css/main.79699134.css",
-    "static/js/main.83cfe7ab.js"
+    "static/js/main.18cdb678.js"
   ]
 }
