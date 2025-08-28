@@ -1,6 +1,16 @@
 import React from "react";
 import "./EventCard.css"; // Import your CSS file for styling
 
+// Helper to create a URL-friendly slug from an event title
+function slugify(str) {
+  if (!str) return "event";
+  return String(str)
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
 export const EventCard = ({
   title,
   date,
@@ -77,6 +87,8 @@ export const PastEventCard = ({
     return null;
   }
 
+  const slug = slugify(title);
+
   return (
     <div className={`event-card ${isPast ? "event-card-past" : ""}`}>
       <h3 className={`event-card-title ${isPast ? "text-gray-600" : ""}`}>
@@ -111,16 +123,10 @@ export const PastEventCard = ({
           </div>
         )}
       </div>
-      {isPast && link && (
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="event-card-footer"
-        >
-          <button className="event-card-button">Register Now</button>
-        </a>
-      )}
+      {/* For past events show an outcome page link instead of register */}
+      <a href={`/events/${slug}`} className="event-card-footer">
+        <button className="event-card-button">View Outcome</button>
+      </a>
     </div>
   );
 };
